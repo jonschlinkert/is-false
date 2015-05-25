@@ -14,6 +14,8 @@ $ npm i is-false --save
 
 Returns true if a property is strictly `false` or its inverse is strictly `true`. The inverse of `a` is `noa`, the inverse of `b` is `nob`, and so on.
 
+**Examples**
+
 ```js
 var isFalse = require('is-false');
 
@@ -24,9 +26,9 @@ isFalse({noa: true}, 'a');
 //=> true
 ```
 
-When a property and it's inverse both exist, both must evaluate to the same result, or `true` is returned.
+## Conflicts
 
-**Examples**
+When both a property and its inverse exist, `true` is always returned unless both values evaluate to `true` (remember that this repo is named `isFalse` ;)
 
 ```js
 isFalse({noa: true, a: false}, 'a');

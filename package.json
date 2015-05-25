@@ -1,0 +1,45 @@
+{
+  "name": "is-false",
+  "description": "Returns false if the value of a property is either strictly false, or it's inverse is strictly true.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/is-false",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/is-false.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-false/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/is-false/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-true": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "boolean",
+    "check",
+    "is",
+    "object",
+    "property",
+    "value"
+  ]
+}
